@@ -1,0 +1,104 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+
+.text {
+    text-align: center;
+    margin: 50px auto;
+}
+
+table {
+    text-align:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:320px; 
+    display: block;
+    border: 5px solid #C12267;
+    border-radius: 10px;
+}
+
+#bits {
+    color: #A30449;
+    font-size: 42px;
+}
+
+#cityh {
+    color: #A30449;
+    font-size: 24px;
+}
+
+td {
+    min-width: 150px;
+    max-width: 150px;
+    display: inline-block;
+    padding: 20px 0;
+}
+
+td .img {
+    margin: 5px;
+    width: 100px;
+}
+
+#banrow {
+    background-color: #FDD7EF;  
+}
+
+#cairow {
+    background-color: #E4FCD7;  
+}
+
+#sydrow {
+    background-color: #D7E4FC;  
+}
+
+footer {
+    margin-top: 200px;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+nav {
+    padding: 10px 0;
+    margin: 20px 100px 10px;
+    border-radius: 10px;
+    text-align: right;   
+   
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+}
+    
+nav li {
+    display: inline-block;  
+    
+}
+
+nav a {
+     color: #000;
+    font-weight: 800;
+    padding: 15px 10px;   
+    font-size: 24px;
+    text-decoration: none;
+}         
+
+nav a.selected, nav a:hover, a:hover {
+    color: #F52887;   
+}
+
+
+
+@media only screen 
+and (min-width : 1600px) {
+     table {
+            width: 1550px;
+        }
+
+    td {
+        padding: 20px 7px;
+    }
+}
